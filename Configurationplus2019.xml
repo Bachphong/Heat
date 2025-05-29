@@ -1,0 +1,21 @@
+<Configuration ID="aea136af-f28f-480f-a17d-4bda42b31dca">
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2019" Version="16.0.10417.20012">
+    <Product ID="ProPlus2019Volume" PIDKEY="NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP">
+      <Language ID="MatchOS" />
+      <Language ID="MatchPreviousMSI" />
+      <Language ID="en-us" />
+      <Language ID="zh-cn" />
+      <Language ID="ko-kr" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+    </Product>
+  </Add>
+  <Property Name="SharedComputerLicensing" Value="0" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="FALSE" />
+  <Property Name="DeviceBasedLicensing" Value="0" />
+  <Property Name="SCLCacheOverride" Value="0" />
+  <Property Name="AUTOACTIVATE" Value="1" />
+  <Updates Enabled="TRUE" />
+  <RemoveMSI />
+  <Display Level="Full" AcceptEULA="TRUE" />
+</Configuration>

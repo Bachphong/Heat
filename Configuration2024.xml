@@ -1,0 +1,19 @@
+<Configuration ID="874b877e-c359-4a9d-b47e-7f8bb750f0cd">
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2024">
+    <Product ID="Standard2024Volume" PIDKEY="V28N4-JG22K-W66P8-VTMGK-H6HGR">
+      <Language ID="MatchOS" />
+      <Language ID="MatchPreviousMSI" />
+      <Language ID="en-us" />
+      <Language ID="zh-cn" />
+      <Language ID="ko-kr" />
+    </Product>
+  </Add>
+  <Property Name="SharedComputerLicensing" Value="0" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="FALSE" />
+  <Property Name="DeviceBasedLicensing" Value="0" />
+  <Property Name="SCLCacheOverride" Value="0" />
+  <Property Name="AUTOACTIVATE" Value="1" />
+  <Updates Enabled="TRUE" />
+  <RemoveMSI />
+  <Display Level="Full" AcceptEULA="TRUE" />
+</Configuration>

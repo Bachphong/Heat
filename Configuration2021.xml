@@ -6,6 +6,7 @@
       <Language ID="en-us" />
       <Language ID="zh-cn" />
       <Language ID="ko-kr" />
+      <ExcludeApp ID="Project" />
     </Product>
   </Add>
   <Property Name="SharedComputerLicensing" Value="0" />

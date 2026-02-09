@@ -7,6 +7,7 @@
       <Language ID="zh-cn" />
       <Language ID="ko-kr" />
       <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Project" />
     </Product>
   </Add>
   <Property Name="SharedComputerLicensing" Value="0" />

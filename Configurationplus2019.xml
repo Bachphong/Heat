@@ -8,6 +8,7 @@
       <Language ID="ko-kr" />
       <ExcludeApp ID="Groove" />
       <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="Project" />
     </Product>
   </Add>
   <Property Name="SharedComputerLicensing" Value="0" />

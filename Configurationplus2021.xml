@@ -7,6 +7,7 @@
       <Language ID="en-us" />
       <Language ID="MatchPreviousMSI" />
       <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="Project" />
     </Product>
   </Add>
   <Property Name="SharedComputerLicensing" Value="0" />

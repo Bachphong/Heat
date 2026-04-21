@@ -1,10 +1,8 @@
 {
-    "version": "20.5.413.26",
+    "version": "20.5.421.26",
     "url": "https://raw.githubusercontent.com/Bachphong/Heat/refs/heads/main/BachTinhPhongTool.zip",
-    "changelog": "Thêm chức năng mới cải tiến download \n giao diện đẹp hơn "
+    "changelog": "Nâng cấp phân quyền User (Policy) và chia sẻ thư mục\nTối ưu & mở rộng tool máy in (67 ➝ 68 chức năng)\nCải tiến tốc độ download\nTối ưu giao diện, hiển thị trực quan hơn"
 }
-
-
 
 
 

@@ -1,9 +1,7 @@
 {
-    "version": "20.5.421.26",
-    "url": "https://raw.githubusercontent.com/Bachphong/Heat/refs/heads/main/BachTinhPhongTool.zip",
-    "changelog": "Nâng cấp phân quyền User (Policy) và chia sẻ thư mục\nTối ưu & mở rộng tool máy in (67 ➝ 68 chức năng)\nCải tiến tốc độ download\nTối ưu giao diện, hiển thị trực quan hơn"
+"version":"20.5.429.26",
+"changelog":"Bổ sung chức năng Fix chữ ký số\nNâng cấp tool máy in lên 72 chức năng\nTối ưu thêm các lỗi thực tế\nDo bận công trình nên thời gian code hạn chế, cập nhật sẽ từ từ nhưng vẫn duy trì"
 }
-
 
 
 

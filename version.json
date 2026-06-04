@@ -1,7 +1,7 @@
 {
-    "version":"20.5.528.26",
+    "version":"20.5.603.26",
     "url":"https://raw.githubusercontent.com/Bachphong/Heat/refs/heads/main/BachTinhPhongTool.zip",
-    "changelog":"Nâng cấp kiểm tra bản quyền Windows & Office\nNâng cấp quản lý License Key\nBổ sung công cụ dọn dẹp MAS/KMS cũ\nFix máy in nâng cấp lên hơn 80 chức năng\nNâng cấp phân quyền User (Policy)\nNâng cấp trình quản lý cài đặt ứng dụng\nNâng cấp bộ công cụ chỉnh sửa PDF miễn phí\nCập nhật EVKey 6.0 mới nhất\nNâng cấp kiểm tra mã hóa EFS & BitLocker đồng thời\nLoại bỏ hoàn toàn ứng dụng crack, chỉ sử dụng phần mềm miễn phí và mã nguồn mở"
+    "changelog":"Nâng cấp phân quyền User (Policy)\nNâng cấp trình quản lý cài đặt ứng dụng\nCập nhật EVKey 6.0 mới nhất"
 }
 
 

@@ -1,9 +1,8 @@
 {
-    "version":"20.5.630.26",
-    "url":"https://raw.githubusercontent.com/Bachphong/Heat/refs/heads/main/BachTinhPhongTool.zip",
-    "changelog":" Nâng cấp dọn dẹp KMS/MAS/HWID an toàn và triệt để hơn"
+    "version": "20.5.630.26",
+    "url": "https://raw.githubusercontent.com/Bachphong/Heat/refs/heads/main/BachTinhPhongTool.zip",
+    "changelog": "Sửa lỗi đọc SMART ổ cứng NVMe (Health = N/A)\nNâng cấp engine dọn dẹp 360 Total Security\nĐổi 'Dọn License Không Hợp Lệ' thành 'Khôi Phục Activation Chuẩn'\nChuẩn hóa hiển thị License: Retail / Volume MAK / Volume KMS\nTối ưu giao diện và cải thiện hiệu năng"
 }
-
 
 
 

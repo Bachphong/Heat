@@ -1,5 +1,5 @@
 {
-    "version": "20.5.711.26",
+    "version": "20.5.722.26",
     "url": "https://raw.githubusercontent.com/Bachphong/Heat/refs/heads/main/BachTinhPhongTool.zip",
-    "changelog": "Sửa lỗi đọc SMART ổ cứng NVMe (Health = N/A)\nNâng cấp engine dọn dẹp 360 Total Security\nĐổi 'Dọn License Không Hợp Lệ' thành 'Khôi Phục Activation Chuẩn'\nChuẩn hóa hiển thị License: Retail / Volume MAK / Volume KMS\nTối ưu giao diện và cải thiện hiệu năng"
+    "changelog": "Loại bỏ chức năng dọn dẹp Crack/KMS/MAS/HWID\nKhắc phục nhận diện nhầm từ Kaspersky\nNâng cấp bộ công cụ Fix Máy In\nBổ sung xác thực mật khẩu khi cài đặt ứng dụng\nTối ưu giao diện và cải thiện hiệu năng"
 }

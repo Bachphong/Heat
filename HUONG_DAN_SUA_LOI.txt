@@ -1,0 +1,78 @@
+═══════════════════════════════════════════════════════════════════════════════
+    HƯỚNG DẪN SỬA LỖI NHANH - SmartMigrator
+═══════════════════════════════════════════════════════════════════════════════
+
+📋 VẤN ĐỀ:
+   Bảng có 0 bản ghi (Face, Commands) bị báo LỖI sai!
+
+✅ GIẢI PHÁP:
+   Sửa 1 đoạn code trong SmartMigrator.vb
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🔍 TÌM ĐOẠN CODE NÀY (khoảng dòng 608):
+
+        If res.Item1 > 0 Then
+            okList.Add("✓ " & t & ": " & res.Item1.ToString())
+        Else
+            failList.Add("✗ " & t & ": " & If(String.IsNullOrEmpty(res.Item2), "Lỗi", res.Item2))
+        End If
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🔧 THAY BẰNG ĐOẠN NÀY:
+
+        ' ✅ SỬA LỖI: Bảng có 0 bản ghi KHÔNG phải là lỗi nếu không có thông báo lỗi
+        ' Success nếu: có bản ghi HOẶC (0 bản ghi + không có lỗi)
+        If res.Item1 > 0 OrElse (res.Item1 = 0 AndAlso String.IsNullOrEmpty(res.Item2)) Then
+            okList.Add("✓ " & t & ": " & res.Item1.ToString())
+        Else
+            ' Chỉ fail khi có thông báo lỗi thực sự
+            failList.Add("✗ " & t & ": " & If(String.IsNullOrEmpty(res.Item2), "Lỗi", res.Item2))
+        End If
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📊 KẾT QUẢ:
+
+TRƯỚC:
+   THÀNH CÔNG (6)
+   THẤT BẠI (62)
+      ✗ Face: Lỗi          ← SAI!
+      ✗ Commands: Lỗi      ← SAI!
+
+SAU:
+   THÀNH CÔNG (8)         ← Tăng 2 bảng!
+      ✓ Face: 0           ← ĐÚNG!
+      ✓ Commands: 0       ← ĐÚNG!
+   THẤT BẠI (60)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📁 FILE CUNG CẤP:
+
+   1. SmartMigrator.vb         - Full code đã sửa
+   2. Synonyms.vb              - File bổ trợ
+   3. THAY_DOI_SUA_LOI.md      - Báo cáo chi tiết
+   4. HUONG_DAN_SUA_LOI.txt    - File này
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🚀 CÁCH SỬ DỤNG:
+
+   Cách 1: Sửa thủ công
+      - Mở SmartMigrator.vb
+      - Tìm đoạn code cũ (dòng ~608)
+      - Thay bằng đoạn code mới
+      - Compile lại
+
+   Cách 2: Thay file hoàn chỉnh
+      - Backup file cũ
+      - Sao chép SmartMigrator.vb mới
+      - Sao chép Synonyms.vb mới
+      - Compile lại
+
+═══════════════════════════════════════════════════════════════════════════════
+
+✔️ HOÀN TẤT!
+

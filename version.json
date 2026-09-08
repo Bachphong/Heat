@@ -1,5 +1,5 @@
 {
-    "version": "20.5.828.26",
-    "url": "https://raw.githubusercontent.com/Bachphong/Heat/refs/heads/main/BachTinhPhongTool.zip",
-    "changelog": "nâng cấp tối ưu và nhiều tính năng khác "
+  "version": "20.5.908.26",
+  "url": "https://raw.githubusercontent.com/Bachphong/Heat/refs/heads/main/BachTinhPhongTool.zip",
+  "changelog": "Nâng cấp Fix máy in, nâng cấp Test Laptop, cải thiện thông tin máy tính, bổ sung tùy chỉnh thông tin máy tính, quản lý User, tra cứu CPU/Mainboard, cài đặt Office, tải ứng dụng và nhiều tính năng mới khác. Tối ưu hiệu năng và cải thiện độ ổn định."
 }

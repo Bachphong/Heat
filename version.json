@@ -1,5 +1,5 @@
 {
-  "version": "20.5.912.26",
+  "version": "20.5.0.26",
   "url": "https://raw.githubusercontent.com/Bachphong/Heat/refs/heads/main/BachTinhPhongTool.zip",
   "changelog": "Nâng cấp nhận diện tàn dư Office và lịch sử kích hoạt rõ ràng, chi tiết hơn. Fix lỗi Kaspersky xoá file, cải tiến Fix máy in và Test Laptop. Sửa lỗi, tối ưu và hoàn thiện nhiều chức năng dựa trên các báo cáo thực tế từ người dùng."
 }

@@ -1,5 +1,5 @@
 {
-  "version": "20.5.910.26",
+  "version": "20.5.912.26",
   "url": "https://raw.githubusercontent.com/Bachphong/Heat/refs/heads/main/BachTinhPhongTool.zip",
-  "changelog": "Nâng cấp Fix máy in, nâng cấp Test Laptop, cải thiện thông tin máy tính, bổ sung tùy chỉnh thông tin máy tính, quản lý User, tra cứu CPU/Mainboard, cài đặt Office, tải ứng dụng và nhiều tính năng mới khác. Tối ưu hiệu năng và cải thiện độ ổn định."
+  "changelog": "Nâng cấp nhận diện tàn dư Office và lịch sử kích hoạt rõ ràng, chi tiết hơn. Fix lỗi Kaspersky xoá file, cải tiến Fix máy in và Test Laptop. Sửa lỗi, tối ưu và hoàn thiện nhiều chức năng dựa trên các báo cáo thực tế từ người dùng."
 }
